@@ -6,7 +6,7 @@ O projeto da Landing Page é ser uma tela inicial web, a ideia do projeto foi po
 A pagina tem o intuito de apresentar um possivel bot do discord, chamado Coffee Bot
 
 ## Tecnologias utilizadas:
-- HTML, CSS.
+- HTML e CSS.
 
 
 # Autor
