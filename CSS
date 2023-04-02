@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;1,700&family=Righteous&family=Rowdies&family=Ubuntu:wght@700&display=swap');@import url('https://fonts.cdnfonts.com/css/insaniburger');
+@import url('https://fonts.cdnfonts.com/css/insaniburger');                
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url("ondas2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cabecalho {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position:relative ;
+    right: -40px;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 50px;
+    position: relative;
+    right: 40px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Ubuntu', sans-serif;
+    color:#ffff ;
+    font-weight: 400px;
+    font-size: 18px ;
+}
+
+.conteudo{
+    position: relative;
+    top:-25px;
+    right: -100px;
+    
+    color: rgb(2, 2, 2);
+    padding: 20px;
+    font-family: 'ubuntu';
+}
+
+
+.conteudo-principal-imagem{
+    position: relative;
+    top: -80px;
+    left: 1000px;
+    
+}
+
+.conteudo-principal-escrito-titulo{
+    position: relative;
+    top: 250px;
+    left: 240px; 
+    font-size: 50px; 
+    font-family: 'Insaniburger', sans-serif;    
+
+    z-index: 1;
+}
+
+
+
+.conteudo-principal-escrito-subtitulo{
+    display: flex;
+    position: relative;
+    font-size: 30px;
+    font-family: 'ubuntu';
+    top: 285px;
+    left: 100px;
+    z-index: 1;
+    
+}
+
+
+.conteuno-principal-escrito-botao{
+    position: relative;
+    top: 330px;
+    left: 370px;
+    width: 250px;
+    height: 50px;
+
+}
+
+.conteuno-subprincipal-escrito-botao{
+    position: relative;
+    top: 330px;
+    left: -100px;
+    width: 150px;
+    height: 50px;
+
+}
+
+.conteudo-principal-escrito-h3{
+    display: flex;
+    position: relative;
+    font-size: 15px;
+    top:300px;
+    left: 100px;
+    z-index: 1;
+}
+.conteudo-secundario{
+  padding: 12px;
+  color: rgb(255, 253, 253);
+  position:relative;
+  font-family: 'ubuntu';
+  
+
+}
+
+.conteudo-secundario-titulo{
+  position: relative;
+  font-size: 40px;  
+  top: -380px;
+  right: -600px;
+}
+
+.conteudo-secundario-paragrafo{
+  position: relative;
+  font-family: 'ubuntu';
+  top: -340px;
+  right: -500px;
+  padding: 10px;
+ 
+
+
+}
+
+button {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    padding:px 20px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.0px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+    z-index: 1;
+   }
+   
+   button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(202, 76%, 52%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+   }
+   
+   button:active {
+    letter-spacing: 3px;
+    background-color: #212121;
+    color: blu;
+    box-shadow: rgb(36, 163, 221) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
+
+   button {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    padding:px 20px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.0px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+    z-index: 1;
+   }
+   
+   button:hover {
+    letter-spacing: 3px;
+    background-color:#212121;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(156, 113, 18) 0px 7px 29px 0px;
+   }
+   
+   button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: blu;
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
+
+   .card {
+    position: relative;
+    top: -490px;
+    left: 80px;
+    width: 590px;
+    height:350px;
+    border-radius: 30px;
+    background: lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  }
+
+  .social-links,.flex-center {
+    position:relative;
+    top: -570px;
+    right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    
+    align-items: center;
+  }
+  
+  .social-btn {
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    background: white;
+    margin: 5px;
+    transition: 0.3s;
+    justify-content: center;
+  }
+  
+  .social-btn svg {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .social-btn span {
+    width: 0px;
+    overflow: hidden;
+    transition: 0.3s;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  .social-btn:hover {
+    width: 150px;
+    border-radius: 5px;
+  }
+  
+  .social-btn:hover span {
+    padding: 2px;
+    width: 80px;
+  }
+  
+  #twitter svg {
+    fill: #1da1f2;
+  }
+  
+  #linkedin svg {
+    fill: #0e76a8;
+  }
+  
+  #github {
+    fill: #333;
+  }
