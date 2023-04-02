@@ -7,3 +7,10 @@ A pagina tem o intuito de apresentar um possivel bot do discord, chamado Coffee 
 
 ## Tecnologias utilizadas:
 - HTML, CSS.
+
+
+# Autor
+
+Victor Mota 
+
+www.linkedin.com/in/victor-mota-603919232
