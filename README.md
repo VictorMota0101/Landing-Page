@@ -9,7 +9,7 @@ A pagina tem o intuito de apresentar um possivel bot do discord, chamado Coffee 
 - HTML e CSS.
 
 
-#imagens
+# imagens
 
 ![image](https://user-images.githubusercontent.com/122422197/229325373-54550d30-5d76-470f-a9b9-1cb082f8b2a1.png)
 
